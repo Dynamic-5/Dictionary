@@ -9,19 +9,19 @@
 <body>
     <div class="wrapper">
         <header>
-            <h1>Online Dictionary & Quiz</h1>
+            <h1>Word Man Dictionary</h1>
         </header>
         
         <main>
             <section class="search-section">
                 <div class="section-header">
-                    <h2>Find a Word</h2>
+                    <h2>Search for a Word</h2>
                 </div>
                 <div class="search-container">
                     <input type="text" id="searchWord" placeholder="Enter a word" class="search-bar">
                     <button id="searchBtn" class="search-btn">Search</button>
                 </div>
-                <p id="wordMeaning" class="word-meaning">Search to find the meaning of any word.</p>
+                <p id="wordMeaning" class="word-meaning">Type a word to see its meaning.</p>
             </section>
             
             <section class="quiz-section">
@@ -36,10 +36,23 @@
                     <p id="feedback" class="feedback"></p>
                 </div>
             </section>
+            
+            <section class="word-man-section">
+                <div class="section-header">
+                    <h2>Meet Word Man</h2>
+                </div>
+                <div class="word-man-container">
+                    <img src="DALL·E 2024-11-30 05.32.01 - A heroic mascot named 'Word Man,' combining elements of the playful and mature designs. The character has a sleek, open book for a head, wears a dynam.webp" alt="Word Man" class="word-man-image">
+                    <p id="wordManMessage" class="word-man-message">
+                        Hi! I'm Word Man, your friendly dictionary guide! Let me suggest a random word for you: <span id="randomWord">...</span>
+                    </p>
+                    <button id="suggestWordBtn" class="suggest-btn">Get a Random Word</button>
+                </div>
+            </section>
         </main>
         
         <footer>
-            <p>&copy; 2024 Offline Dictionary. All rights reserved.</p>
+            <p>&copy; 2024 Word Man Dictionary. All rights reserved.</p>
         </footer>
     </div>
     
